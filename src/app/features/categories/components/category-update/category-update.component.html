@@ -1,0 +1,12 @@
+<p>category-update works!</p>
+<div [formGroup]="categoryForm" >
+
+  
+    <label for="name">Name:</label>
+    <input type="text" id="name" formControlName="name">
+  
+    <label for="description">Description:</label>
+    <input type="text" id="description" formControlName="description">
+  
+    <button (click)="updateCategory()">Güncelle</button>
+</div>

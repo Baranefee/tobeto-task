@@ -1,0 +1,9 @@
+.nav-link {
+    margin-right: 10px; /* Sağ tarafa 10px boşluk ekler */
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    color: #000; /* Yazı rengini siyah yapar, isterseniz değiştirebilirsiniz */
+  }
+  
+  .nav-link:last-child {
+    margin-right: 0; /* Son linkin sağ tarafında boşluk olmamasını sağlar */
+  }

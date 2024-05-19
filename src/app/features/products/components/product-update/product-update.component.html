@@ -1,0 +1,90 @@
+
+<!-- <div [formGroup]="productForm">
+    <label for="id">ID:</label>
+    <input type="number" id="id" formControlName="id" readonly>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" formControlName="name">
+
+    <label for="supplierId">Supplier ID:</label>
+    <input type="number" id="supplierId" formControlName="supplierId">
+
+    <label for="categoryId">Category ID:</label>
+    <input type="number" id="categoryId" formControlName="categoryId">
+
+    <label for="quantityPerUnit">Quantity Per Unit:</label>
+    <input type="text" id="quantityPerUnit" formControlName="quantityPerUnit">
+
+    <label for="unitPrice">Unit Price:</label>
+    <input type="number" id="unitPrice" formControlName="unitPrice">
+
+    <label for="unitsInStock">Units In Stock:</label>
+    <input type="number" id="unitsInStock" formControlName="unitsInStock">
+
+    <label for="unitsOnOrder">Units On Order:</label>
+    <input type="number" id="unitsOnOrder" formControlName="unitsOnOrder">
+
+    <label for="reorderLevel">Reorder Level:</label>
+    <input type="number" id="reorderLevel" formControlName="reorderLevel">
+
+    <label for="discontinued">Discontinued:</label>
+    <input type="checkbox" id="discontinued" formControlName="discontinued">
+
+    <button (click)="updateProduct()">Güncelle</button>
+</div> -->
+
+
+<div [formGroup]="productForm" class="form-container">
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" formControlName="name">
+    </div>
+
+    <div class="form-group">
+        <label for="supplierId">Supplier ID:</label>
+        <input type="number" id="supplierId" formControlName="supplierId">
+    </div>
+
+    <div class="form-group">
+        <label for="categoryId">Category ID:</label>
+        <input type="number" id="categoryId" formControlName="categoryId">
+    </div>
+
+    <div class="form-group">
+        <label for="quantityPerUnit">Quantity Per Unit:</label>
+        <input type="text" id="quantityPerUnit" formControlName="quantityPerUnit">
+    </div>
+
+    <div class="form-group">
+        <label for="unitPrice">Unit Price:</label>
+        <input type="number" id="unitPrice" formControlName="unitPrice">
+    </div>
+
+    <div class="form-group">
+        <label for="unitsInStock">Units In Stock:</label>
+        <input type="number" id="unitsInStock" formControlName="unitsInStock">
+    </div>
+
+    <div class="form-group">
+        <label for="unitsOnOrder">Units On Order:</label>
+        <input type="number" id="unitsOnOrder" formControlName="unitsOnOrder">
+    </div>
+
+    <div class="form-group">
+        <label for="reorderLevel">Reorder Level:</label>
+        <input type="number" id="reorderLevel" formControlName="reorderLevel">
+    </div>
+
+    <div class="form-group">
+        <label for="discontinued">Discontinued:</label>
+        <select id="discontinued" formControlName="discontinued">
+            <option [value]="true">True</option>
+            <option [value]="false">False</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <button (click)="updateProduct()">Güncelle</button>
+    </div>
+</div>
